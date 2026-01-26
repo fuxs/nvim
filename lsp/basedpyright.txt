@@ -1,9 +1,0 @@
-return {
-  settings = {
-    basedpyright = {
-      python = {
-        venvPath = ".venv"
-      }
-    }
-  }
-}

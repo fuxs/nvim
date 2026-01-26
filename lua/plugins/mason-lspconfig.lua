@@ -1,6 +1,6 @@
 return {
   "mason-org/mason-lspconfig.nvim",
-  ft = { "lua", "python", "rust" },
+  ft = { "lua", "markdown", "python", "rust", "terraform" },
   dependencies = {
     {
       "mason-org/mason.nvim",

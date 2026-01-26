@@ -5,6 +5,7 @@ return {
   ---@module "snacks"
   ---@type snacks.Config
   opts = {
+    animate = { enabled = true },
     bigfile = { enabled = true },
     lazygit = { enabled = true },
     indent = { enabled = true },
@@ -14,7 +15,10 @@ return {
     scope = { enabled = true },
     scroll = { enabled = true },
     statuscolumn = { enabled = true },
-    win = { border = "rounded" },
+    win = {
+      border = "rounded",
+      show = true,
+    },
     words = { enabled = true },
   },
 }
