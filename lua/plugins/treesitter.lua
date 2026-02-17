@@ -12,9 +12,10 @@ return {
         "html",
         "bash",
         "markdown",
+        "python",
         "regex",
         "rust",
-        "python",
+        "sql",
       },
       sync_install = false,
       highlight = {
